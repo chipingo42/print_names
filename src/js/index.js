@@ -1,4 +1,5 @@
 const PersonObj = {
+    sureName: 'Akalazu'
     name: 'Victor',
     height: '5 ft 5.3',
     country: 'Nigeria'
@@ -6,9 +7,9 @@ const PersonObj = {
 
 
 let data  = ` <div class="container">
-                          <li class="name">Name: ${PersonObj.name}</>
+                          <li class="name">Name: ${PersonObj.sureName} ${PersonObj.name}</>
                           <li class="name">Height: ${PersonObj.height}</>
-                          <li class="name">Country ${PersonObj.country}</>
+                          <li class="name">Country: ${PersonObj.country}</>
 
 </div>`;
 

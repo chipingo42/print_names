@@ -1,5 +1,5 @@
 const PersonObj = {
-    sureName: 'Akalazu'
+    sureName: 'Akalazu',
     name: 'Victor',
     height: '5 ft 5.3',
     country: 'Nigeria'
